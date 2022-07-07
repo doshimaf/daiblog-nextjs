@@ -26,19 +26,6 @@ const Pager = (props) => {
           </Link>
         ) : ``}
       </span>
-
-      <style jsx>{`
-        .pager {
-          display: flex;
-          flex-direction: row;
-          justify-content: center;
-          flew-wrap: nowrap;
-        }
-
-        .pager-item {
-          margin: 0 1em;
-        }
-      `}</style>
     </div>
   )
 }

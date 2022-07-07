@@ -6,7 +6,7 @@ import Layout from "../../../components/Layout"
 import Pager from "../../../components/Pager"
 import { listContentFiles, readContentFiles } from "../../../lib/content-loader"
 
-const COUNT_PER_PAGE = 10
+const COUNT_PER_PAGE = 5
 
 export default function Archive(props) {
   const { posts, page, total, perPage } = props
@@ -25,16 +25,6 @@ export default function Archive(props) {
         href="/archive/[page]"
         asCallback={(page) => `/archive/${page}`}
       />
-
-      <style jsx>{`
-        .post-teaser {
-          margin-bottom: 2em;
-        }
-
-        .post-teaser h2 a {
-          text-decoration: none;
-        }
-      `}</style>
     </Layout>
   )
 }

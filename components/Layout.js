@@ -6,28 +6,28 @@ const Layout = (props) => {
   const siteTitle = "daiblog"
 
   return (
-    <div className="page">
+    <div className="wrapper">
       <Head>
         <title>{title ? `${title} | ${siteTitle}` : siteTitle}</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <header>
-        <h1 className="site-title">
+      <header className="header">
+        <p className="header__logo">
           <Link href="/">
-            <a>{siteTitle}</a>
+            <a><img src="/images/daiblog-logo.png" alt="daiblog" /></a>
           </Link>
-        </h1>
+        </p>
       </header>
 
-      <main>
+      <main className="main">
         {title ? <h1 className="page-title">{title}</h1> : ``}
-        <div className="page-main">
+        <div className="post-list">
           {children}
         </div>
       </main>
 
-      <footer>
+      <footer className="footer">
         &copy; {siteTitle}
       </footer>
     </div>

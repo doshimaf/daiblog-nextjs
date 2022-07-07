@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
 html,
 body {
   padding: 0;
@@ -12,8 +14,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Montserrat, -apple-system, 'Segoe UI', 'Helvetica Neue',
-    'Hiragino Kaku Gothic ProN', メイリオ, meiryo, sans-serif;
+  font-family: -apple-system, 'Segoe UI', 'Helvetica Neue', 'Hiragino Kaku Gothic ProN', メイリオ, meiryo, sans-serif;
 }
 
 * {
@@ -30,3 +31,73 @@ iframe {
   max-width: 100%;
 }
 
+.wrapper {
+  background-color: #ebeff5;
+}
+
+.header {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 0 72px;
+}
+.header__logo a {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+.header__logo img {
+  width: 160px;
+}
+
+.footer{
+  margin-top: 4em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  padding: 2em 1em;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.post-list {
+  margin-bottom: 2em;
+}
+.post-list-date {
+  margin-top: 1em;
+  margin-bottom: .25em;
+}
+.post-list-title {
+  margin-top: 0;
+  margin-bottom: .25em;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.post-list-title a {
+  text-decoration: none;
+}
+
+.home-archive {
+  margin: 3em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+.pager {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.pager-item {
+  margin: 0 1em;
+}
