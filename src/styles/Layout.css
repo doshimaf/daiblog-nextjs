@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
 .page {
   padding: 2em 1em;
   max-width: 800px;
@@ -24,4 +26,23 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+h2 {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.post-teaser {
+  margin-bottom: 2em;
+}
+
+.post-teaser h2 a {
+  text-decoration: none;
+}
+
+.home-archive {
+  margin: 3em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
