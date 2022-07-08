@@ -13,8 +13,8 @@ export default function Home(props) {
         key={post.slug}
         className="post-list"
       >
-        <p className="post-list-date">{post.published}</p>
-        <h2 className="post-list-title"><Link href="/posts/[id]" as={`/posts/${post.slug}`}><a>{post.title}</a></Link></h2>
+        <p className="post-list__date">{post.published}</p>
+        <h2 className="post-list__title"><Link href="/posts/[id]" as={`/posts/${post.slug}`}><a>{post.title}</a></Link></h2>
       </div>)}
 
       {hasArchive ? (
