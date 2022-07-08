@@ -12,7 +12,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: -apple-system, 'Segoe UI', 'Helvetica Neue', 'Hiragino Kaku Gothic ProN', メイリオ, meiryo, sans-serif;
+  font-family: 'Josefin Sans', -apple-system, 'Segoe UI', 'Helvetica Neue', 'Hiragino Kaku Gothic ProN', メイリオ, meiryo, sans-serif;
 }
 
 * {
@@ -77,7 +77,6 @@ iframe {
   margin-bottom: .25em;
 }
 .post-list__title a {
-  font-family: 'Josefin Sans', sans-serif;
   text-decoration: none;
 }
 
