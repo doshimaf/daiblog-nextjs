@@ -23,3 +23,15 @@ https://qiita.com/dosukoi_man/items/4624de0275a53ba648d3
 ##　Google Analytics
 
 https://hukurouo.com/articles/2021-02-07-gtag
+
+## ToDo
+
+- タグ別の記事一覧ページの作成
+- ウィジェットの作成
+- フィードの生成
+- サイトマップの生成
+- メタタグの追加
+- OGP タグの追加
+- favicon の差し替え
+- PWA 対応
+- SEO
