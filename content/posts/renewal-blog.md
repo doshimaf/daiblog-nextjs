@@ -47,19 +47,19 @@ Next.jsに触れたのも、Vercelというホスティングサービスに触�
 
 ### 全体の構築
 
-https://gotohayato.com/content/517/
+[Next.js を使った Jamstack なブログの始め方](https://hukurouo.com/articles/2021-02-07-gtag)
 
 ### 独自ドメインのサブドメイン設定
 
-https://blog.okaryo.io/20220320-vercel-deploy-with-custom-domain
+[Vercelでデプロイしたサイトに独自ドメインのサブドメインを設定する](https://blog.okaryo.io/20220320-vercel-deploy-with-custom-domain)
 
 ### Googleフォント読み込み
 
-https://qiita.com/dosukoi_man/items/4624de0275a53ba648d3
+[Next.js で Google Fonts を取り扱うメモ](https://qiita.com/dosukoi_man/items/4624de0275a53ba648d3)
 
 ### Google Analytics
 
-https://hukurouo.com/articles/2021-02-07-gtag
+[Next.js + Vercel 製のブログに Google Analytics を導入する](https://hukurouo.com/articles/2021-02-07-gtag)
 
 ## おわりに
 
