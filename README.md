@@ -32,6 +32,4 @@ https://hukurouo.com/articles/2021-02-07-gtag
 - サイトマップの生成
 - メタタグの追加
 - OGP タグの追加
-- favicon の差し替え
 - PWA 対応
-- SEO
