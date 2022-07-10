@@ -47,7 +47,7 @@ Next.jsに触れたのも、Vercelというホスティングサービスに触�
 
 ### 全体の構築
 
-[Next.js を使った Jamstack なブログの始め方](https://hukurouo.com/articles/2021-02-07-gtag)
+[Next.js を使った Jamstack なブログの始め方](https://gotohayato.com/content/517/)
 
 ### 独自ドメインのサブドメイン設定
 
