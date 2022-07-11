@@ -1,6 +1,10 @@
 ---
-  title: 個人ブログをリニューアルしました。
-  published: 2022-07-09
+title: 個人ブログをリニューアルしました。
+published: 2022-07-09T03:45:00+09:00
+tags: [Tag1, Tag2]
+categories: [Category]
+aliases:
+  - /diary/aliases
 ---
 
 2019年から始めて、書いたり消したり、サイト丸ごとリセットしたりと紆余曲折あった個人ブログを大幅にリニューアルしました。
