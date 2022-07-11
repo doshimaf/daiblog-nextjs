@@ -24,6 +24,10 @@ https://qiita.com/dosukoi_man/items/4624de0275a53ba648d3
 
 https://hukurouo.com/articles/2021-02-07-gtag
 
+### Syntax Highlight
+
+https://countstheclouds.com/posts/nextjs-blog-3/#syntax-highlighting
+
 ## ToDo
 
 - タグ別の記事一覧ページの作成

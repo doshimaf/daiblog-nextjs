@@ -65,6 +65,10 @@ Next.jsに触れたのも、Vercelというホスティングサービスに触�
 
 [Next.js + Vercel 製のブログに Google Analytics を導入する](https://hukurouo.com/articles/2021-02-07-gtag)
 
+### Syntax Highlight
+
+[Next.jsでブログを構築する〜ページネーション・テスト・サイトマップ・フィード](https://countstheclouds.com/posts/nextjs-blog-3/#syntax-highlighting)
+
 ## おわりに
 
 まだまだ本格的なブログとしては未完成なところが多く、やることがたくさんありますが、楽しみながらこつこつ学んでいけたらなと思っています。
