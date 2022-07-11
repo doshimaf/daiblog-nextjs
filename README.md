@@ -12,7 +12,7 @@
 
 https://gotohayato.com/content/517/
 
-###　独自ドメインのサブドメイン設定
+### 独自ドメインのサブドメイン設定
 
 https://blog.okaryo.io/20220320-vercel-deploy-with-custom-domain
 
@@ -20,7 +20,7 @@ https://blog.okaryo.io/20220320-vercel-deploy-with-custom-domain
 
 https://qiita.com/dosukoi_man/items/4624de0275a53ba648d3
 
-##　Google Analytics
+### Google Analytics
 
 https://hukurouo.com/articles/2021-02-07-gtag
 
