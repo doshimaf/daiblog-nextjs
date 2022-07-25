@@ -59,7 +59,7 @@ import Date from '../../components/date';
 import { Date, UpDate } from '../../components/date';
 ```
 
-React超初心者だったため、はじめコンポーネント名を　upDate のように小文字から始めておりデベロッパーツールのコンソールに下記のエラーが表示されて正常に動作しなかった。
+React超初心者だったため、はじめコンポーネント名を upDate のように小文字から始めておりデベロッパーツールのコンソールに下記のエラーが表示されて正常に動作しなかった。
 
 ```
 Warning: The tag <upDate> is unrecognized in this browser. If you meant to render a React component, start its name with an uppercase letter.
