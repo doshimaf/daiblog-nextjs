@@ -65,7 +65,7 @@ React超初心者だったため、はじめコンポーネント名を upDate �
 Warning: The tag <upDate> is unrecognized in this browser. If you meant to render a React component, start its name with an uppercase letter.
 ```
 
-「このブラウザでは <upDate> タグは認識されません。Reactコンポーネントをレンダリングする場合は、コンポーネント名を大文字で始めます。」とのこと。
+「このブラウザでは `<upDate>` タグは認識されません。Reactコンポーネントをレンダリングする場合は、コンポーネント名を大文字で始めます。」とのこと。
 
 小文字でコンポーネント名を定義すると、`<div>`　のような組み込みのコンポーネントとして参照され 'div' のような文字列に変換されるため、ブラウザに認識されない。
 
