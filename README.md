@@ -10,7 +10,7 @@
 
 ### 投稿日と更新日を両方表示させる
 
-公式ドキュメント（'https://nextjs.org/learn/basics/dynamic-routes/polishing-post-page'(https://nextjs.org/learn/basics/dynamic-routes/polishing-post-page) ）を参考に、date.js で date-fns を使って投稿日（publish）の書式を設定。
+公式ドキュメント（https://nextjs.org/learn/basics/dynamic-routes/polishing-post-page ）を参考に、date.js で date-fns を使って投稿日（publish）の書式を設定。
 
 Dateコンポーネントを投稿日に、UpDateコンポーネントを更新日として書式を設定するため、date.jsの処理を default export（デフォルトエクスポート）から named export（名前付きエクスポート）に書き換える。
 
