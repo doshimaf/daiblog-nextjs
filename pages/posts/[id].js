@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Layout from '../../components/layout';
 import { getAllPostIds, getPostData } from '../../lib/posts';
-import Date from '../../components/date';
+import { Date, UpDate } from '../../components/date';
 import utilStyles from '../../styles/utils.module.scss';
 
 export default function Post({ postData }) {
@@ -13,7 +13,8 @@ export default function Post({ postData }) {
       <article>
         <h1 className={utilStyles.headingXl}>{postData.title}</h1>
         <div className={utilStyles.lightText}>
-          <Date dateString={postData.date} />
+          <small>投稿日 <Date dateString={postData.publish} /></small><br></br>
+          <small>更新日 <UpDate dateString={postData.update} /></small>
         </div>
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </article>
