@@ -1,6 +1,7 @@
 ---
 title: 個人ブログをリニューアルしました。
-published: 2022-07-09T03:45:00+09:00
+publish: '2022-07-09'
+update: '2022-07-20'
 tags: [Tag1, Tag2]
 categories: [Category]
 aliases:
