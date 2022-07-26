@@ -1,15 +1,12 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import styles from './layout.module.scss';
-import utilStyles from '../styles/utils.module.scss';
 import Link from 'next/link';
 
-const name = 'Daiki Oshima';
-export const siteTitle = 'Next.js Sample Website';
+export const siteTitle = 'daiblog';
 
 export default function Layout({ children, home }) {
   return (
-    <div className={styles.container}>
+    <>
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta
@@ -18,56 +15,27 @@ export default function Layout({ children, home }) {
         />
         <meta
           property="og:image"
-          content={`https://og-image.vercel.app/${encodeURI(
-            siteTitle,
-          )}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg`}
+          content='/images/daiblog-ogp.png'
         />
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      <header className={styles.header}>
-        {home ? (
-          <>
-            <Image
-              priority
-              src="/images/profile.jpg"
-              className={utilStyles.borderCircle}
-              height={144}
-              width={144}
-              alt={name}
-            />
-            <h1 className={utilStyles.heading2Xl}>{name}</h1>
-          </>
-        ) : (
-          <>
-            <Link href="/">
-              <a>
-                <Image
-                  priority
-                  src="/images/profile.jpg"
-                  className={utilStyles.borderCircle}
-                  height={108}
-                  width={108}
-                  alt={name}
-                />
-              </a>
-            </Link>
-            <h2 className={utilStyles.headingLg}>
-              <Link href="/">
-                <a className={utilStyles.colorInherit}>{name}</a>
-              </Link>
-            </h2>
-          </>
-        )}
-      </header>
-      <main>{children}</main>
-      {!home && (
-        <div className={styles.backToHome}>
+      <header className='flex justify-center pt-8 pb-20'>
+        <p className=''>
           <Link href="/">
-            <a>← Back to home</a>
+            <a><img className='h-8 w-auto sm:h-12' src='/images/daiblog-logo.png' alt={siteTitle} /></a>
           </Link>
-        </div>
-      )}
-    </div>
+        </p>
+      </header>
+      <div className='container max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8 lg:gap-20'>
+        <main className='col-span-2 lg:col-span-3'>{children}</main>
+        <aside className='col-span-1'>
+          <p className='pl-2 border-b border-gray-500'>Archive</p>
+        </aside>
+      </div>
+      <footer className=' pt-20 pb-8'>
+        <p className='text-sm text-center text-gray-500'>&copy; {siteTitle}</p>
+      </footer>
+    </>
   );
 }

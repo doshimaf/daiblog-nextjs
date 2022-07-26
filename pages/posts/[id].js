@@ -2,19 +2,18 @@ import Head from 'next/head';
 import Layout from '../../components/layout';
 import { getAllPostIds, getPostData } from '../../lib/posts';
 import { Date, UpDate } from '../../components/date';
-import utilStyles from '../../styles/utils.module.scss';
 
 export default function Post({ postData }) {
   return (
     <Layout>
       <Head>
-        <title>{postData.title}</title>
+        <title>{postData.title} | daiblog</title>
       </Head>
-      <article>
-        <h1 className={utilStyles.headingXl}>{postData.title}</h1>
-        <div className={utilStyles.lightText}>
-          <small>投稿日 <Date dateString={postData.publish} /></small><br></br>
-          <small>更新日 <UpDate dateString={postData.update} /></small>
+      <article className='prose max-w-none'>
+        <h1 className='text-3xl'>{postData.title}</h1>
+        <div className='mb-12 text-right'>
+          <span className='text-sm text-gray-600'>投稿日 : <Date dateString={postData.publish} /></span><br />
+          <span className='text-sm text-gray-600'>更新日 : <UpDate dateString={postData.update} /></span>
         </div>
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </article>
