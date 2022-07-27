@@ -28,6 +28,10 @@ export default function Layout({ children, home }) {
               <Image
                 src={logoImage}
                 alt={siteTitle}
+                width={320}
+                height={98}
+                priority={true}
+                loading={'eager'}
               />
             </a>
           </Link>
