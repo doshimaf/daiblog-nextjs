@@ -71,11 +71,52 @@ Warning: The tag <upDate> is unrecognized in this browser. If you meant to rende
 
 そのため、ユーザー定義のコンポーネント名は、大文字で始める必要がある。
 
+###　シンタックスハイライトの導入
+
+下記の記事を参考に導入した。
+
+- https://frendly.dev/posts/using-prism-js-in-next-js
+
+.babelrc.jsファイルの対象言語やカラーテーマ、プラグインは必要に応じて設定。
+
+全て設定したものの、ハイライトが適応されない。
+
+他の同様の方法でシンタックスハイライトを導入しているブログのGithubに公開されているコードを参考に検証する。
+
+僕の場合、lib/posts.js で使用しているremark-htmlの下記部分を編集することで解決した。
+
+```js
+// before
+// ...
+
+const processedContent = await remark()
+    .use(html)
+    .process(matterResult.content);
+const contentHtml = processedContent.toString();
+
+// ...
+```
+
+```js
+// after
+// ...
+
+const processedContent = await remark()
+    .use(html, { sanitize: false })
+    .process(matterResult.content);
+const contentHtml = processedContent.toString();
+
+// ...
+```
+
+remark-htmlのsanitizeオプションをfalseにすることで、HTML出力時にサニタイジング（エスケープ処理）されないように設定。
+
+XSS対策上、ユーザーがフォームやコメントなどの文字入力できる場合にはエスケープ処理をしておく必要があるが、
+現状そのような機能は導入しない静的サイトなのでエスケープ処理せず、正常にハイライトされるようにした。
 
 ## ToDo
 
 - タグ別の記事一覧ページの作成
-- シンタックスハイライト
 - ウィジェットの作成
 - フィードの生成
 - サイトマップの生成
