@@ -29,7 +29,7 @@ export default function Home({ allPostsData }) {
                 <Date dateString={publish} />
               </p>
               <Link href={`/posts/${id}`}>
-                <a><span className='block text-xl leading-snug'>{title}</span></a>
+                <a><span className='block text-lg sm:text-xl leading-snug'>{title}</span></a>
               </Link>
             </li>
           ))}
