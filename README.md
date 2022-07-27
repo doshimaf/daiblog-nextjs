@@ -71,7 +71,7 @@ Warning: The tag <upDate> is unrecognized in this browser. If you meant to rende
 
 そのため、ユーザー定義のコンポーネント名は、大文字で始める必要がある。
 
-###　シンタックスハイライトの導入
+### シンタックスハイライトの導入
 
 下記の記事を参考に導入した。
 
