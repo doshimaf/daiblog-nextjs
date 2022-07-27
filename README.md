@@ -83,7 +83,7 @@ Warning: The tag <upDate> is unrecognized in this browser. If you meant to rende
 
 他の同様の方法でシンタックスハイライトを導入しているブログのGithubに公開されているコードを参考に検証する。
 
-僕の場合、lib/posts.js で使用しているremark-htmlの下記部分を編集することで解決した。
+lib/posts.js で使用しているremark-htmlの下記部分を編集することで解決した。
 
 ```js
 // before
