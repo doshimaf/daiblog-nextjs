@@ -25,14 +25,7 @@ export default function Layout({ children, home }) {
         <p className=''>
           <Link href="/">
             <a className='block w-32 w-auto sm:w-48'>
-              <Image
-                src={logoImage}
-                alt={siteTitle}
-                width={320}
-                height={98}
-                priority={true}
-                loading={'eager'}
-              />
+              <Image src={logoImage} alt={siteTitle} width={320} height={98} priority={true} loading={'eager'} />
             </a>
           </Link>
         </p>
