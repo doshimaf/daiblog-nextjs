@@ -2,8 +2,7 @@
 title: 個人ブログをリニューアルしました。
 publish: '2022-07-09'
 update: '2022-07-20'
-tags: [Tag1, Tag2]
-categories: [Category]
+categories: [Blog]
 aliases:
   - /diary/aliases
 ---
@@ -44,31 +43,17 @@ aliases:
 - コードホスティング：GitHub
 - ビルド・ホスティング：Vercel
 
-Next.jsに触れたのも、Vercelというホスティングサービスに触れたのも初めてで、勢いと楽しさだけで作ったので、課題は山積みな感じですが、今まで通りマイペースにコツコツ作り込んでいこうと思います。
+Next.jsに触れたのもVercelというホスティングサービスに触れたのも初めてで、勢いと楽しさだけで作ったので課題は山積みですが、今まで通りマイペースにコツコツ作り込んでいこうと思います。
 
-参考までに、今回Next.jsでJamstackブログを作る際に参考にさせていただいた記事を載っけておきます。
+以下、構築にあたって参考にさせていただいた記事リンクです。
 
-機能追加に合わせて、都度更新していきます。
+### 参考
 
-### 全体の構築
-
-[Next.js を使った Jamstack なブログの始め方](https://gotohayato.com/content/517/)
-
-### 独自ドメインのサブドメイン設定
-
-[Vercelでデプロイしたサイトに独自ドメインのサブドメインを設定する](https://blog.okaryo.io/20220320-vercel-deploy-with-custom-domain)
-
-### Googleフォント読み込み
-
-[Next.js で Google Fonts を取り扱うメモ](https://qiita.com/dosukoi_man/items/4624de0275a53ba648d3)
-
-### Google Analytics
-
-[Next.js + Vercel 製のブログに Google Analytics を導入する](https://hukurouo.com/articles/2021-02-07-gtag)
-
-### Syntax Highlight
-
-[Next.jsでブログを構築する〜ページネーション・テスト・サイトマップ・フィード](https://countstheclouds.com/posts/nextjs-blog-3/#syntax-highlighting)
+- https://gotohayato.com/content/517/
+- https://blog.okaryo.io/20220320-vercel-deploy-with-custom-domain
+- https://qiita.com/dosukoi_man/items/4624de0275a53ba648d3
+- https://hukurouo.com/articles/2021-02-07-gtag
+- https://countstheclouds.com/posts/nextjs-blog-3/#syntax-highlighting)
 
 ## おわりに
 
