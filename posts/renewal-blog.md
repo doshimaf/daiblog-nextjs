@@ -1,6 +1,6 @@
 ---
 title: 個人ブログをリニューアルしました。
-publish: '2022-07-09'
+date: '2022-07-09'
 update: '2022-07-20'
 categories: [Blog]
 aliases:

@@ -1,6 +1,6 @@
 ---
 title: 【プラグインなし】WordPressで投稿記事から表示期間と表示件数を指定する方法
-publish: '2021-08-05'
+date: '2021-08-05'
 update: '2022-07-19'
 categories: [WordPress]
 ---

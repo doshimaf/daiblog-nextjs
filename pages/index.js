@@ -23,10 +23,10 @@ export default function Home({ allPostsData }) {
       </Head>
       <div>
         <ul>
-          {allPostsData.map(({ id, publish, title }) => (
+          {allPostsData.map(({ id, date, title }) => (
             <li className='mb-8' key={id}>
               <p className='mb-1 text-xs text-gray-600'>
-                <Date dateString={publish} />
+                <Date dateString={date} />
               </p>
               <Link href={`/posts/${id}`}>
                 <a><span className='block text-lg sm:text-xl leading-snug'>{title}</span></a>
