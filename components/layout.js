@@ -2,10 +2,11 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
 import logoImage from '../public/images/daiblog-logo.png'
+import Aside from './aside';
 
 export const siteTitle = 'daiblog';
 
-export default function Layout({ children, home }) {
+export default function Layout({ children }) {
   return (
     <>
       <Head>
@@ -32,9 +33,7 @@ export default function Layout({ children, home }) {
       </header>
       <div className='container max-w-7xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-4 gap-y-8 sm:gap-8 lg:gap-20'>
         <main className='col-span-3'>{children}</main>
-        <aside className='col-span-1'>
-          <p className='pl-2 border-b border-gray-500'>Archive</p>
-        </aside>
+        <Aside />
       </div>
       <footer className=' pt-20 pb-8'>
         <p className='text-sm text-center text-gray-500'>&copy; {siteTitle}</p>

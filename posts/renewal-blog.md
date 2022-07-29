@@ -2,7 +2,7 @@
 title: 個人ブログをリニューアルしました。
 date: '2022-07-09'
 update: '2022-07-20'
-categories: [Blog]
+tags: [Blog, Next.js, Jamstack, GitHub, Vercel]
 aliases:
   - /diary/aliases
 ---
@@ -49,11 +49,11 @@ Next.jsに触れたのもVercelというホスティングサービスに触れ�
 
 ### 参考
 
-- https://gotohayato.com/content/517/
-- https://blog.okaryo.io/20220320-vercel-deploy-with-custom-domain
-- https://qiita.com/dosukoi_man/items/4624de0275a53ba648d3
-- https://hukurouo.com/articles/2021-02-07-gtag
-- https://countstheclouds.com/posts/nextjs-blog-3/#syntax-highlighting)
+- [https://gotohayato.com/content/517](https://gotohayato.com/content/517)
+- [https://blog.okaryo.io/20220320-vercel-deploy-with-custom-domain](https://blog.okaryo.io/20220320-vercel-deploy-with-custom-domain)
+- [https://qiita.com/dosukoi_man/items/4624de0275a53ba648d3](https://qiita.com/dosukoi_man/items/4624de0275a53ba648d3)
+- [https://hukurouo.com/articles/2021-02-07-gtag](https://hukurouo.com/articles/2021-02-07-gtag)
+- [https://countstheclouds.com/posts/nextjs-blog-1](https://countstheclouds.com/posts/nextjs-blog-1)
 
 ## おわりに
 
